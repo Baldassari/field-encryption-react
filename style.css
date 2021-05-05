@@ -1,0 +1,9 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.MuiFormControl-root {
+  margin-right: 1em;
+  margin-top: 1em;
+}
