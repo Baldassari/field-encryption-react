@@ -17,7 +17,11 @@ class FieldEncrypt extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      json: '',
+      json: `{
+        "number": "6363524016719240862",
+        "clavis": "1916",
+        "clientToken": "0a3d7ccaf35c6c52e523e029bb5a4ba26795bd127b9a7441d4a9d06d3181d410"
+    }`,
       publicKey: publicKey,
       privateKey: privateKey,
       passphrase: passphrase
