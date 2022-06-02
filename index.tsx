@@ -36,6 +36,9 @@ class FieldEncrypt extends Component {
   handlePbKeyChange(event) {
     this.setState({ publicKey: event.target.value });
   }
+  handlePrKeyChange(event) {
+    this.setState({ privateKey: event.target.value });
+  }
   render() {
     return (
       <div>
@@ -57,7 +60,7 @@ class FieldEncrypt extends Component {
             id="standard-basic"
             label="Private Key"
             value={this.state.privateKey}
-            onChange={(event) => this.handlePbKeyChange(event)}
+            onChange={(event) => this.handlePrKeyChange(event)}
           />
           <TextField
             id="standard-basic"
